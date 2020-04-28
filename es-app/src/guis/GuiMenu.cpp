@@ -478,22 +478,34 @@ void GuiMenu::openQuitMenu()
 		s->addRow(row);
 
 
-
-		if(Settings::getInstance()->getBool("ShowExit"))
-		{
-			row.elements.clear();
-			row.makeAcceptInputHandler([window] {
-				window->pushGui(new GuiMsgBox(window, _("REALLY QUIT?"), _("YES"),
-					[] {
-					SDL_Event ev;
-					ev.type = SDL_QUIT;
-					SDL_PushEvent(&ev);
-				}, _("NO"), nullptr));
-			});
-			row.addElement(std::make_shared<TextComponent>(window, _("QUIT EMULATIONSTATION"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
-			s->addRow(row);
-		}
+		// SAIR DO FREDOPIE (melhor deixar apenas a opção do F4)
+		// if(Settings::getInstance()->getBool("ShowExit"))
+		// {
+		// 	row.elements.clear();
+		// 	row.makeAcceptInputHandler([window] {
+		// 		window->pushGui(new GuiMsgBox(window, _("REALLY QUIT?"), _("YES"),
+		// 			[] {
+		// 			SDL_Event ev;
+		// 			ev.type = SDL_QUIT;
+		// 			SDL_PushEvent(&ev);
+		// 		}, _("NO"), nullptr));
+		// 	});
+		// 	row.addElement(std::make_shared<TextComponent>(window, _("QUIT EMULATIONSTATION"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
+		// 	s->addRow(row);
+		// }
 	}
+
+	row.elements.clear();
+			row.makeAcceptInputHandler([window] {
+				window->pushGui(new GuiMsgBox(window, "TEM CERTEZA?", "SIM", 
+				[] { 
+					if(quitES("/tmp/es-wifi") != 0)
+						LOG(LogWarning) << "Restart terminated with non-zero result!";
+				}, "NÃO", nullptr));
+			});
+			row.addElement(std::make_shared<TextComponent>(window, "CONFIGURAR WIFI", Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
+			s->addRow(row);
+
 	row.elements.clear();
 	row.makeAcceptInputHandler([window] {
 		window->pushGui(new GuiMsgBox(window, _("REALLY RESTART?"), _("YES"),

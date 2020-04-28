@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "PO-Revision-Date: 2019-03-19 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -608,12 +608,6 @@ msgstr "真的要重新啟動？"
 msgid "RESTART EMULATIONSTATION"
 msgstr "重啟EMULATIONSTATION"
 
-msgid "REALLY QUIT?"
-msgstr "真的要離開？"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "離開EMULATIONSTATION"
-
 msgid "RESTART SYSTEM"
 msgstr "重啟系統"
 
@@ -1075,6 +1069,12 @@ msgstr "按 ESC 來取消"
 
 msgid "DISCARD CHANGES"
 msgstr "放棄更改"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "真的要離開？"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "離開EMULATIONSTATION"
 
 #~ msgid "LOADING..."
 #~ msgstr "載入中..."

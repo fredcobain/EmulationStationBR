@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: retropie-emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -603,12 +603,6 @@ msgstr "REDÉMARRER VRAIMENT ?"
 msgid "RESTART EMULATIONSTATION"
 msgstr "REDÉMARRER EMULATIONSTATION"
 
-msgid "REALLY QUIT?"
-msgstr "QUITTER VRAIMENT ?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "QUITTER EMULATIONSTATION"
-
 msgid "RESTART SYSTEM"
 msgstr "REDÉMARRER LE SYSTÈME"
 
@@ -1076,6 +1070,12 @@ msgstr "PRESSER ÉCHAP POUR ANNULER."
 
 msgid "DISCARD CHANGES"
 msgstr "ANNULER"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "QUITTER VRAIMENT ?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "QUITTER EMULATIONSTATION"
 
 #~ msgid "LOADING..."
 #~ msgstr "CHARGEMENT..."

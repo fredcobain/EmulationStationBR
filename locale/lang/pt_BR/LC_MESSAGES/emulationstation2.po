@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: retropie-emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "Last-Translator: heloisa \n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -602,16 +602,10 @@ msgid "REALLY RESTART?"
 msgstr "REINICIAR?"
 
 msgid "RESTART EMULATIONSTATION"
-msgstr "REINICIAR FREDOPIE"
-
-msgid "REALLY QUIT?"
-msgstr "SAIR?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "SAIR DO FREDOPIE"
+msgstr "REINICIAR INTERFACE"
 
 msgid "RESTART SYSTEM"
-msgstr "REINICIAR SISTEMA"
+msgstr "REINICIAR FREDOPIE"
 
 msgid "REALLY SHUTDOWN?"
 msgstr "DESLIGAR?"
@@ -1077,6 +1071,12 @@ msgstr "PRESSIONE ESC PARA CANCELAR."
 
 msgid "DISCARD CHANGES"
 msgstr "DESCARTAR ALTERAÇÕES"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "SAIR?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "SAIR DO FREDOPIE"
 
 #~ msgid "LOADING..."
 #~ msgstr "CARREGANDO..."

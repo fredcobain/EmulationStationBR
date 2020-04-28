@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "Last-Translator: Taranchul aka Clyde @ retropie.org.uk\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de_DE\n"
@@ -608,12 +608,6 @@ msgstr "WIRKLICH NEU STARTEN?"
 msgid "RESTART EMULATIONSTATION"
 msgstr "EMULATIONSTATION NEU STARTEN"
 
-msgid "REALLY QUIT?"
-msgstr "WIRKLICH BEENDEN?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "EMULATIONSTATION BEENDEN"
-
 msgid "RESTART SYSTEM"
 msgstr "SYSTEM NEU STARTEN"
 
@@ -1079,6 +1073,12 @@ msgstr "ESC DRCKEN UM ABZUBRECHEN."
 
 msgid "DISCARD CHANGES"
 msgstr "NDRUNGEN VERWERFEN"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "WIRKLICH BEENDEN?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "EMULATIONSTATION BEENDEN"
 
 #~ msgid "LOADING..."
 #~ msgstr "LADE ..."

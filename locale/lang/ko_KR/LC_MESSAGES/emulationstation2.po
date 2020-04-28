@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -610,12 +610,6 @@ msgstr "정말 다시 시작합니까?"
 msgid "RESTART EMULATIONSTATION"
 msgstr "에뮬레이션스테이션 재시작"
 
-msgid "REALLY QUIT?"
-msgstr "정말로 나갑니까?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "에뮬레이션스테이션 나가기"
-
 msgid "RESTART SYSTEM"
 msgstr "시스템 재시작"
 
@@ -1080,6 +1074,12 @@ msgstr "취소하려면 ESC를 누르세요."
 
 msgid "DISCARD CHANGES"
 msgstr "변경 취소"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "정말로 나갑니까?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "에뮬레이션스테이션 나가기"
 
 #~ msgid "LOADING..."
 #~ msgstr "불러오는 중..."

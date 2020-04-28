@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emulationstationES\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "Last-Translator: heloisa, kactius, jesusignazio, hiulit\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -605,12 +605,6 @@ msgstr "¿REALMENTE QUIERE REINICIAR?"
 msgid "RESTART EMULATIONSTATION"
 msgstr "REINICIAR EMULATIONSTATION"
 
-msgid "REALLY QUIT?"
-msgstr "¿REALMENTE QUIERE SALIR?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "SALIR DE EMULATIONSTATION"
-
 msgid "RESTART SYSTEM"
 msgstr "REINICIAR EL SISTEMA"
 
@@ -1078,6 +1072,12 @@ msgstr "PRESIONE ESC PARA CANCELAR."
 
 msgid "DISCARD CHANGES"
 msgstr "DESCARTAR CAMBIOS."
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "¿REALMENTE QUIERE SALIR?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "SALIR DE EMULATIONSTATION"
 
 #~ msgid "LOADING..."
 #~ msgstr "CARGANDO..."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: retropie-emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:34-0300\n"
+"POT-Creation-Date: 2020-04-28 15:25-0300\n"
 "Last-Translator: hiulit \n"
 "Language: ca_ES\n"
 "MIME-Version: 1.0\n"
@@ -604,12 +604,6 @@ msgstr "REALMENT VOLEU REINICIAR EL SISTEMA?"
 msgid "RESTART EMULATIONSTATION"
 msgstr "REINICIA L'EMULATIONSTATION"
 
-msgid "REALLY QUIT?"
-msgstr "REALMENT VOLEU SORTIR?"
-
-msgid "QUIT EMULATIONSTATION"
-msgstr "SURT DE L'EMULATIONSTATION"
-
 msgid "RESTART SYSTEM"
 msgstr "REINICIA EL SISTEMA"
 
@@ -1078,6 +1072,12 @@ msgstr "PREMEU ESC PER A CANCEL·LAR."
 
 msgid "DISCARD CHANGES"
 msgstr "DESCARTA ELS CANVI"
+
+#~ msgid "REALLY QUIT?"
+#~ msgstr "REALMENT VOLEU SORTIR?"
+
+#~ msgid "QUIT EMULATIONSTATION"
+#~ msgstr "SURT DE L'EMULATIONSTATION"
 
 #~ msgid "LOADING..."
 #~ msgstr "CARREGANT..."
